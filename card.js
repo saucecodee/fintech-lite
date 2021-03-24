@@ -26,7 +26,7 @@ function processInitialCardCharge(chargeResult) {
   }
 
   return {
-    success: true,
+    success: false,
     message: chargeResult.data.status,
     data: {
       shouldCreditAccount: false,
